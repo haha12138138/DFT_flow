@@ -1,0 +1,31 @@
++---+ dft_flow :dir
+|	|
+|	- dft_flow_config.tcl *
+|	|
+|	- dft_signal.tcl      *
+|	|
+|	- dft_rtl_chk.tcl     *
+|	|
+|	- dft_auto_fix.tcl  
+|	|
+|	- dft_scan_config.tcl 
+|	|
+|	- dft_stitch.tcl
+|
++---+ compile_flow :dir
+|	|
+|	- compile_setup.tcl
+|	|
+|	- compile_config.tcl
+|	|
+|	- compile_constraint.tcl
+|	|
+|	- compilt_dont_use.tcl
+|
++---+ util :dir
+	|
+	- read_design.tcl
+	|
+	- store_design.tcl
+	|
+	- store_dft_test_config.tcl
